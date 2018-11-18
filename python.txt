@@ -1,0 +1,12 @@
+class Person:
+
+	def __init__(self,name):
+		self.name = name
+	
+	def print_user_message(self):
+		print(self.name)
+
+person = Person("alice")
+person.print_user_message()
+# 运行结果：
+	alice
